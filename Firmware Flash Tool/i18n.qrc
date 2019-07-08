@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/I18N">
+        <file>I18N_en_UK.qm</file>
+    </qresource>
+</RCC>
