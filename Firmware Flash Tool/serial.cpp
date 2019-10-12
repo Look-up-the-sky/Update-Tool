@@ -84,7 +84,7 @@ void cSerial::doworks()
                 if(serial->waitForBytesWritten(2000))
                 {
                     Sleep(100);
-                    if(serial->waitForReadyRead(2000))
+                    if(serial->waitForReadyRead(4000))
                     {
                         readbuf = serial->readAll();
                         if(readbuf == Enable_IAP_ACK)
